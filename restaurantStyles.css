@@ -1,0 +1,50 @@
+body {
+	background-color: #ffe6e6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+header, footer{
+	background-color: #a366ff;
+	color: white;
+	padding: 20px;
+	margin: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 28px;
+	text-align: center;
+	color: #44cc00;
+}
+
+.clear-float{
+	clear:both;
+} /* need this and the <div class="clear-float"></div> right before ending of nav on the html file so that content below the links to float aside*/
+
+ nav a{
+ 	background-color: #f0f8ff;
+ 	padding: 10px;
+ 	border: thin solid black;
+ 	text-align: center;
+ 	display: block;
+ 	float:left;
+ 	padding: 15px;
+ 	width: 100px;
+ 	margin: 15px; /* so there is spacing between the links */
+ }
+
+nav a:visited{
+	color: #0000ff;
+}
+
+nav a:hover{
+	font-weight: bold;
+}
+
+nav a:active{
+	text-decoration: none;
+}
